@@ -31,7 +31,7 @@ function SendMessage(props) {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             type="text"
-            placeholder="Mesaj yaz Ebrar :)))"
+            placeholder="Mesaj yaz :)))"
           />
           <button onClick={sendMessage} type="submit" className="btn btn-success">
             Gönder
