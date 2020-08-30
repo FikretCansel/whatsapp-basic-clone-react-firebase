@@ -12,7 +12,7 @@ function App() {
  
   const singInfuc=(e)=>{
     e.preventDefault();
-    if(input==="ebrar"){
+    if(input==="admin"){
       setsignIn(true); 
     } 
   }
@@ -23,7 +23,7 @@ function App() {
         <form>
           <input type="text" className="form-control" value={username} placeholder="Adınızı giriniz!" onChange={(e) => setUsername(e.target.value)}/>
         <div className="form-group d-flex justify-content-between">
-          <input type="text" className="form-control" value={input} placeholder="şifre gir ebrar :D" onChange={(e) => setInput(e.target.value)}/>
+          <input type="text" className="form-control" value={input} placeholder="şifre:" onChange={(e) => setInput(e.target.value)}/>
           <button type="submit" className="btn btn-success" onClick={singInfuc}>Giriş</button>
         </div>
       </form></div>:
